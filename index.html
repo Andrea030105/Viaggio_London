@@ -10,18 +10,22 @@
 <body>
     <header>
         <h1>Il mio viaggio a Londra</h1>
-        <img src="./img/london_eye.jp" alt="london_eye">
-        <hr>
+        <div>
+            <img src="./img/london_eye.jp" alt="london_eye">
+        </div>
     </header>
+    <hr>
     <main>
-        <section>
-            <h2>Le mie spese</h2>
-            <table>
+        <h2>Le mie spese</h2>
+        <table>
+            <thead>
                 <tr>
                     <th>Numero</th>
                     <th>Descrizione</th>
                     <th>Numero</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>1</td>
                     <td>Biglietto aereo</td>
@@ -37,52 +41,50 @@
                     <td>Biglietto aereo</td>
                     <td>120&euro;</td>
                 </tr>
+            </tbody>
+            <tfoot>
                 <tr>
                     <td>Totale</td>
                     <td></td>
                     <td>360&euro;</td>
                 </tr>
-            </table>
-            <hr>
-        </section>
-        <section>
-            <h2>Cose da fare</h2>
+            </tfoot>
+        </table>
+        <hr>
+        <h2>Cose da fare</h2>
+        <ul>
+            <li>Visitare la tower of London&cross;</li>
+            <li>Visitare Greenwich&#10003;</li>
+            <li>Ascoltare un artista di strada a Covent Garden&#10003;</li>
+            <li>Mangiare il tipico Fish and Chips inglese&cross;</li>
+        </ul>
+        <hr>
+        <h2>Info Utili</h2>
+        <ol>
+            <li>Numeri utili di emergenza</li>
             <ul>
-                <li>Visitare la tower of London&cross;</li>
-                <li>Visitare Greenwich&#10003;</li>
-                <li>Ascoltare un artista di strada a Covent Garden&#10003;</li>
-                <li>Mangiare il tipico Fish and Chips inglese&cross;</li>
+                <li><strong>999</strong> - Emergenza</li>
+                <li><strong>101</strong> - Numero Polizia</li>
+                <li><strong>111</strong> - Numero assistenza medica</li>
             </ul>
-            <hr>
-        </section>
-        <section>
-            <h2>Info Utili</h2>
-            <ol>
-                <li>Numeri utili di emergenza</li>
-                <ul>
-                    <li><strong>999</strong> - Emergenza</li>
-                    <li><strong>101</strong> - Numero Polizia</li>
-                    <li><strong>111</strong> - Numero assistenza medica</li>
-                </ul>
-                <li>Htoel</li>
-                <ul>
-                    <li><strong>Nome hotel:</strong> Buckingham Place</li>
-                    <li><strong>Indirizzo hotel:</strong> Westmister, London SW1A 1AA, Regno Unito</li>
-                </ul>
-                <li>Aereo</li>
-                <ul>
-                    <li><strong>Volo di Andata:</strong> YI234X, ore 9.30 da Milano Malpensa</li>
-                    <li><strong>Volo di Ritorno:</strong> YI236X, ore 18.30 da London Heathrow</li>
-                </ul>
-            </ol>
-            <hr>
-        </section>
+            <li>Htoel</li>
+            <ul>
+                <li><strong>Nome hotel:</strong> Buckingham Place</li>
+                <li><strong>Indirizzo hotel:</strong> Westmister, London SW1A 1AA, Regno Unito</li>
+            </ul>
+            <li>Aereo</li>
+            <ul>
+                <li><strong>Volo di Andata:</strong> YI234X, ore 9.30 da Milano Malpensa</li>
+                <li><strong>Volo di Ritorno:</strong> YI236X, ore 18.30 da London Heathrow</li>
+            </ul>
+        </ol>
+        <hr>
     </main>
     <footer>
-        <section>
+        <div>
             <img src="./img/City.jp" alt="City">
             <img src="./img/Orologio.jpe" alt="Orologio">
-        </section>
+        </div>
     </footer>
 </body>
 
